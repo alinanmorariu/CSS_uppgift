@@ -1,0 +1,19 @@
+CSS Zen Garden - The Beauty of CSS Design - Initial Design Idea
+
+The main design lines for the webpage are:
+
+- the main idea it should transmit is that of elegance, grace and at the same time great detail focus, reflecting the way CSS transforms a simple structured text page into something completely diferent through styling.
+
+- the central concept, that will transmit the main idea, will be the art of origami which imply great focus on detail and skills that have as a result elegant shapes. The images on the webpage will be those of a swan made with origami and different folded paper images. The swan image will be placed in the header of the website, on the right of the logo, tag line, description and first article. Folded paper images will be used as a separator for the Select a design, Archives and Resources sections from the rest of the articles.
+
+- the main colors of the website will be: orange, green and grey. A nice orange color will be used for the headings, logo and tagline, while the links will be green and the text content will be grey. All content will be placed on a white background.
+
+- the font family will be Century Gothic, CenturyGothic, AppleGothic, sans-serif which is a web safe CSS font stack. The headings will be bolded and uppercase.
+
+- the page will be centered, as well as the articles which will take up full width of the page.
+
+- separation between articles will be done with the help of thin orange lines.
+
+- the design list will be shown on two rows, each title in a box with orange borders, 4 boxes on a row. Text inside the boxes will scale to a slightly higher size on hover.
+
+
