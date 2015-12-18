@@ -7,6 +7,7 @@ body {
 
 p {
     line-height: 1.8;
+    padding: 0 16px;
 }
 
 h1, h2, h3 {
@@ -38,7 +39,19 @@ a:hover {
     font-weight: bold;
 }
 
-section#zen-intro {
+a:visited {
+    color: #2A3A00;
+}
+
+ul {
+    -webkit-padding-start: 0px;
+}
+
+footer {
+    padding: 0 16px;
+}
+
+#zen-intro {
     background-image: url('../img/origami_swan.png'); 
     background-repeat: no-repeat;
     background-size:contain;
@@ -49,11 +62,8 @@ section#zen-intro {
     width: 54%;
 }
 
-.intro h1, .intro h3, div#zen-supporting h3 {
-    border-top: 1px solid #d97605;
-}
-
 .intro h1 {
+    border-top: 1px solid #d97605;
     padding-top: 20px;
 }
 
@@ -62,18 +72,44 @@ section#zen-intro {
     padding-bottom: 20px;
 }
 
-/*.intro h3 {
-    margin-top: 90px;
-}*/
-
-.intro h3, div#zen-supporting h3 {
+.intro h3, .select {
+    border: 30px solid transparent;
+    -webkit-border-image: url('../img/separator.jpg') 50 round; /* Safari 3.1-*/
+    -o-border-image: url('../img/separator.jpg') 50 round; /* Opera 11-12.1 */
+    border-image: url('../img/separator.jpg') 50 round;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
     padding-top: 50px;
 }
 
-div#zen-supporting h3 {
+.supporting h3, .design-archives h3, .zen-resources h3 {
+    border-top: 1px solid #d97605;
+    padding-top: 50px;
     margin-top: 50px;
 }
 
-div#zen-summary {
-    margin:60px 0px;
+#zen-summary {
+    margin: 60px 0px;
 }
+
+.select {
+    margin-top: 50px;
+}
+
+.zen-resources {
+    border: 30px solid transparent;
+    -webkit-border-image: url('../img/separator.jpg') 50 round; /* Safari 3.1-*/
+    -o-border-image: url('../img/separator.jpg') 50 round; /* Opera 11-12.1 */
+    border-image: url('../img/separator.jpg') 50 round;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+}
+
+.design-archives ul li, .zen-resources ul li {
+    list-style: none;
+    padding-bottom: 16px;
+    text-align: center;
+} 
